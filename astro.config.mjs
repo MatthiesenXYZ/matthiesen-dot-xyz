@@ -4,7 +4,7 @@ import starlightGhostCMS from '@matthiesenxyz/starlight-ghostcms';
 import fs from 'node:fs';
 import { ExpressiveCodeTheme } from '@astrojs/starlight/expressive-code';
 
-const jsoncString = fs.readFileSync(new URL('./src/styles/houston-dark.jsonc', import.meta.url), 'utf-8');
+const jsoncString = fs.readFileSync(new URL('./houston-dark.jsonc', import.meta.url), 'utf-8');
 const houston = ExpressiveCodeTheme.fromJSONString(jsoncString);
 
 // https://astro.build/config
