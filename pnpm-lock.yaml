@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.21.1
     version: 0.21.1(astro@4.4.15)
   '@matthiesenxyz/astro-gists':
-    specifier: ^0.2.3
-    version: 0.2.3(astro@4.4.15)
+    specifier: ^0.2.6
+    version: 0.2.6(astro@4.4.15)
   '@matthiesenxyz/starlight-ghostcms':
     specifier: ^0.1.5
     version: 0.1.5(@astrojs/starlight@0.21.1)(astro@4.4.15)(typescript@5.4.2)
@@ -948,8 +948,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@matthiesenxyz/astro-gists@0.2.3(astro@4.4.15):
-    resolution: {integrity: sha512-uS4jYjigf1+sKQPoIT1uaxoXESITyn+ZbH0UpICkvwH/we9eRgc73TJ9jF5tUbnziuICIgxFzDB1e59SLK1dqA==}
+  /@matthiesenxyz/astro-gists@0.2.6(astro@4.4.15):
+    resolution: {integrity: sha512-ENgL5Fdxd6glzAEpPSj5tc/oe0bHjPuOXJ239xGtInJRhXjtJxLXnjxjMw0AHiGA7lfrGloChIMJlqAuwBheQQ==}
     peerDependencies:
       astro: ^4.4.1
     dependencies:
@@ -985,7 +985,7 @@ packages:
     dependencies:
       '@astrojs/rss': 4.0.5
       '@astrojs/starlight': 0.21.1(astro@4.4.15)
-      '@matthiesenxyz/astro-gists': 0.2.3(astro@4.4.15)
+      '@matthiesenxyz/astro-gists': 0.2.6(astro@4.4.15)
       '@ts-ghost/content-api': 4.0.12
       '@ts-ghost/core-api': 6.0.0
       astro: 4.4.15(typescript@5.4.2)
