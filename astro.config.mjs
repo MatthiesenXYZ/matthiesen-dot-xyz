@@ -4,9 +4,6 @@ import starlightGhostCMS from '@matthiesenxyz/starlight-ghostcms';
 import fs from 'node:fs';
 import { ExpressiveCodeTheme } from '@astrojs/starlight/expressive-code';
 
-const jsoncString = fs.readFileSync(new URL('./houston-dark.jsonc', import.meta.url), 'utf-8');
-const houston = ExpressiveCodeTheme.fromJSONString(jsoncString);
-
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://matthiesen.xyz',
@@ -19,7 +16,6 @@ export default defineConfig({
 			components: {
 				SiteTitle: './src/starlight/SiteTitle.astro',
 			},
-			expressiveCode: { themes: [ houston ] },
 			logo: {
 				src: './src/assets/mxyz-logo.png',
 				alt: 'MatthiesenXYZ',
