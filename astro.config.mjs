@@ -1,8 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightGhostCMS from '@matthiesenxyz/starlight-ghostcms';
-import fs from 'node:fs';
-import { ExpressiveCodeTheme } from '@astrojs/starlight/expressive-code';
 
 // https://astro.build/config
 export default defineConfig({
