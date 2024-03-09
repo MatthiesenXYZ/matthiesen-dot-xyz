@@ -1,0 +1,39 @@
+---
+title: Welcome to MatthiesenXYZ
+description: The home of Open Source Software and other projects by MatthiesenXYZ
+template: splash
+hero:
+  tagline: Bulding Open Source Software on Astro
+  image:
+    file: ../../assets/mxyz-logo.png
+  actions:
+    - text: Our Projects
+      link: /astro-integrations/
+      icon: right-arrow
+      variant: primary
+    - text: Check our GitHub
+      link: https://github.com/MatthiesenXYZ
+      icon: external
+---
+import gitkrakenlogo from '../../assets/GitKraken_WebBanner.png'
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Quick introduction
+
+We are a small team of one at the moment, But with the goal to change the way businesses look at their hardware and software they use to run their day to day business. Get away from the old licensing schemes and join the Open Source movement! Save money by getting rid of the Licensing fees! It's time for businesses to stay on the cloud but get away from the spendy Office365 type solutions that are backed with all sorts of closed away code, that can't be tweaked for an individual business use-case. Even if you are not ready to go Open Source we are more than able to help! Just tell us what you want and we will make it happen!
+
+But with Open Source you can make the code your own and tweak to your hearts content. Create the project that fits your needs, or if you need a Office365 alternative, go with a Open Source Alternative like NextCloud, OnlyOffice, LibreOffice, and there is tons more, these are just an example of the Office type alternatives! Even this website is built using Open Source and costs us next to nothing to own!
+
+## Outside Tools & Software
+
+<CardGrid stagger>
+	<Card title="Our Projects are">
+		[<img src="https://astro.badg.es/v2/built-with-astro/small.svg" title="Built with Astro" alt="Built with Astro" width="192" height="32" />](https://astro.build)
+	</Card>
+	<Card title="This website is">
+		[<img src="https://astro.badg.es/v2/built-with-starlight/small.svg" title="Built with Starlight" alt="Built with Starlight" width="224" height="32" />](https://starlight.astro.build)
+	</Card>
+	<Card title="Keeping our Git Workflow organized is">
+		[<img src={gitkrakenlogo.src} width="225px" title="Maintained with GitKraken" alt="Maintained with GitKraken"/>](https://www.gitkraken.com/invite/hirocQWn)
+	</Card>
+</CardGrid>

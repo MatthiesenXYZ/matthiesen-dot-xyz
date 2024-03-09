@@ -1,0 +1,28 @@
+---
+title: "Astro-Gists"
+sidebar:
+  order: 4
+  badge: 
+    text: "NEW"
+    variant: "success"
+---
+import MXYZIntegration from '../../../components/MXYZIntegration.astro'
+import { GetGist } from '@matthiesenxyz/astro-gists/components'
+
+<MXYZIntegration title="@matthiesenxyz/astro-gists" githubIntegrationURL='https://github.com/MatthiesenXYZ/astro-gists/tree/main/package'/>
+
+Allows the user to import GitHub Gists by ID through an Astro Component and Octokit.
+
+#### Live Demo:
+<GetGist gistId="cce7f3f1d9322710be8196aa344186ba" filename="hello.md"/>
+
+## Features:
+- Import Collection of GitHub Gists by ID
+- Import Single GitHub Gists by Filename
+- Uses Octokit for GitHub API Integration
+- ExpressiveCode Built-in for Syntax Highlighting and better Code blocks!
+- Supports light and dark themes & uses the user's system preference!
+
+## Gettings Started
+
+Want to use Astro-Gists in your project? Here's where to start: [Astro-Gists](https://github.com/MatthiesenXYZ/astro-gists/blob/main/package/README.md)
