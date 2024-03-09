@@ -24,6 +24,10 @@ export default defineConfig({
 				gitlab: 'https://gitlab.com/matthiesenxyz',
 			},
 			customCss: ['./src/styles/starlight.css'],
+			editLink: {
+				baseUrl: 'https://github.com/MatthiesenXYZ/matthiesen-dot-xyz/edit/main'
+			},
+			lastUpdated: true,
 			plugins: [ 
 				starlightGhostCMS({
 					ghostURL: "https://ghost.matthiesen.xyz",
