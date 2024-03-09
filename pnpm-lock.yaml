@@ -12,7 +12,7 @@ dependencies:
     specifier: ^0.21.1
     version: 0.21.1(astro@4.4.15)
   '@matthiesenxyz/astro-gists':
-    specifier: 0.2.2
+    specifier: ^0.2.2
     version: 0.2.2(astro@4.4.15)
   '@matthiesenxyz/starlight-ghostcms':
     specifier: ^0.1.4
