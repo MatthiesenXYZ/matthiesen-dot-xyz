@@ -5,46 +5,78 @@ sidebar:
 ---
 import MXYZIntegration from '../../../components/MXYZIntegration.astro'
 import AdamIntegration from '../../../components/AdamIntegration.astro'
-import { Card } from '@astrojs/starlight/components';
+import { Card, LinkCard, Icon } from '@astrojs/starlight/components';
 
-The integrations in this list come from two Github sources,
-- [`MatthiesenXYZ`](https://github.com/matthiesenxyz) - The Main Github Organization
-- [`AdamMatthiesen`](https://github.com/adammatthiesen) - Adam's Github Profile
+##### The integrations in this list come from two Github sources,
+
+<Card title="Matthiesen XYZ" icon="github">
+   The Main GitHub Organization Profile
+</Card>
+<Card title="Adam Matthiesen" icon="github">
+   Adam's GitHub Profile
+</Card>
 
 Check the sidebar or use the arrow buttons below to continue.
 
-Note: Some of our projects are also mirrored to [`GitLab`](https://gitlab.com/matthiesenxyz)
+<Card title="Mirrored to GitLab" icon="gitlab">
+We also mirror some of our projects to GitLab. [View our GitLab Profile](https://gitlab.com/matthiesenxyz)
+</Card>
+
+
+Note: Some of our projects are also mirrored to [`GitLab`](https://gitlab.com/matthiesenxyz) 
 
 ## Starlight Plugins
 
-- [`Starlight-GhostCMS`](/astro-integrations/starlight-ghostcms) - A plugin for integrating GhostCMS with Starlight
    <Card>
       <MXYZIntegration title="@matthiesenxyz/starlight-ghostcms" githubIntegrationURL='https://github.com/MatthiesenXYZ/astro-ghostcms/tree/main/packages/starlight-ghostcms/'/>
+      <LinkCard 
+         title="Starlight-GhostCMS" 
+         description="A Starlight plugin to integration your GhostCMS content into Starlight"
+         href="/astro-integrations/starlight-ghostcms"
+      />
    </Card>
 
 ## Astro Integrations
 
 #### Utility Integrations
 
-- [`Astro-Gists`](/astro-integrations/astro-gists) - A plugin for embedding Gists in Astro
    <Card>
       <MXYZIntegration title="@matthiesenxyz/astro-gists" githubIntegrationURL='https://github.com/MatthiesenXYZ/astro-gists/tree/main/package'/>
+      <LinkCard 
+         title="Astro-Gists" 
+         description="A Integration for embedding GitHub's Gists in Astro using Octokit.js"
+         href="/astro-integrations/astro-gists"
+      />
    </Card>
 
 #### Blogging-CMS Integrations
 
-- [`Astro-Ghostcms`](/astro-integrations/astro-ghostcms) - A plugin for integrating GhostCMS with Astro
+  
    <Card>
       <MXYZIntegration title="@matthiesenxyz/astro-ghostcms" githubIntegrationURL='https://github.com/MatthiesenXYZ/astro-ghostcms/tree/main/packages/astro-ghostcms/'/>
+      <LinkCard 
+         title="Astro-GhostCMS"
+         description="Easily migrate your Ghost Site to Astro, an Astro Integration that turns your Ghost server into a Headless CMS"
+         href="/astro-integrations/astro-ghostcms"
+      />
    </Card>
 
 #### E-commerce Integrations
 
-- [`Astro-Snipcart`](/astro-integrations/astro-snipcart) - A plugin for integrating Snipcart with Astro
    <Card>
       <AdamIntegration title="@adammatthiesen/astro-snipcart" githubIntegrationURL='https://github.com/Adammatthiesen/astro-snipcart/' />
+      <LinkCard 
+         title="Astro-Snipcart"
+         description="A integration for Snipcart and Astro"
+         href="/astro-integrations/astro-snipcart"
+      />
    </Card>
-- [`Astro-CommerceJS`](/astro-integrations/astro-commercejs) - A plugin for integrating CommerceJS with Astro
+
    <Card>
       <AdamIntegration title="@adammatthiesen/astro-commercejs" githubIntegrationURL='https://github.com/Adammatthiesen/astro-commercejs/' />
+      <LinkCard 
+         title="Astro-CommerceJS"
+         description="A integration for CommerceJS and Astro"
+         href="/astro-integrations/astro-commercejs"
+      />
    </Card>
