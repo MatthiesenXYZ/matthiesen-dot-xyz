@@ -8,10 +8,17 @@ sidebar:
 ---
 import MXYZIntegration from '../../../../components/MXYZIntegration.astro'
 import { GetGist } from '@matthiesenxyz/astro-gists/components'
+import { Card, LinkCard, Icon, Aside } from '@astrojs/starlight/components';
 
-<MXYZIntegration title="@matthiesenxyz/astro-gists" githubIntegrationURL='https://github.com/MatthiesenXYZ/astro-gists/tree/main/package'/>
+<MXYZIntegration 
+  title="@matthiesenxyz/astro-gists" 
+  githubIntegrationURL='https://github.com/MatthiesenXYZ/astro-gists/tree/main/package'
+  gitlabIntegrationURL='https://gitlab.com/MatthiesenXYZ/astro-gists'
+  />
 
 Allows the user to import GitHub Gists by ID through an Astro Component and Octokit.
+
+<Aside title="Fun Fact" type="tip">  This website is running with `astro-gists`! Just check the Live Demo below</Aside>
 
 #### Live Demo:
 <GetGist gistId="cce7f3f1d9322710be8196aa344186ba" filename="hello.md"/>
@@ -23,6 +30,9 @@ Allows the user to import GitHub Gists by ID through an Astro Component and Octo
 - ExpressiveCode Built-in for Syntax Highlighting and better Code blocks!
 - Supports light and dark themes & uses the user's system preference!
 
-## Gettings Started
-
-Want to use Astro-Gists in your project? Here's where to start: [Astro-Gists](https://github.com/MatthiesenXYZ/astro-gists/blob/main/package/README.md)
+<Card title="Getting Started" icon="rocket">
+   <LinkCard 
+      title="Want to get started?  Check out the Astro-Gists Documentation"
+      href="https://github.com/MatthiesenXYZ/astro-gists/blob/main/package/README.md"
+   />
+</Card>

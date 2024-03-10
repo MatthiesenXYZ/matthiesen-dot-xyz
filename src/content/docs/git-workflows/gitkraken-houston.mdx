@@ -7,6 +7,7 @@ sidebar:
     variant: caution
 ---
 import MXYZRepo from '../../../components/MXYZRepo.astro'
+import { Card, LinkCard, Icon } from '@astrojs/starlight/components';
 
 <MXYZRepo title="@matthiesenxyz/gitkraken-houston" githubIntegrationURL='https://github.com/MatthiesenXYZ/gitkraken-houston/'/>
 
@@ -18,6 +19,9 @@ Currently Houston only has a Dark Theme, so this will only work with the Dark Th
 
 ![GitKraken Houston](../../../assets/gitkraken-houston.png)
 
-## Getting Started
-
-Want to use GitKraken-Houston? Get started on the [Github Repository](https://github.com/MatthiesenXYZ/GitKraken-Houston)
+<Card title="Getting Started" icon="rocket">
+   <LinkCard 
+      title="Want to get started?  Check out the GitKraken-Houston Documentation"
+      href="https://github.com/MatthiesenXYZ/GitKraken-Houston/"
+   />
+</Card>

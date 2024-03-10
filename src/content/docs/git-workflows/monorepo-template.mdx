@@ -3,6 +3,7 @@ title: Monorepo Dev Template
 description: A template for a monorepo development environment
 ---
 import AdamRepo from '../../../components/AdamRepo.astro'
+import { Card, LinkCard, Icon } from '@astrojs/starlight/components';
 
 <AdamRepo title="@adammatthiesen/monorepo-template" githubIntegrationURL='https://github.com/adammatthiesen/monorepo-template/'/>
 
@@ -19,6 +20,9 @@ This is a template for a monorepo development environment. It includes a number 
     - [`CoAuthor Workflow`](https://github.com/marketplace/actions/generate-co-authors) - A workflow to help manage co-authors on PRs.
     - `Changeset Management` - Automatically creates a PR for a changeset when it is created. As well as verifies that changesets exist in new PRs.
 
-## Getting Started
-
-To get started with this template, check out the [Github Repository](https://github.com/Adammatthiesen/monorepo-template)
+<Card title="Getting Started" icon="rocket">
+   <LinkCard 
+      title="Want to get started with this template?  Check out the GitHub Repository"
+      href="https://github.com/Adammatthiesen/monorepo-template"
+   />
+</Card>

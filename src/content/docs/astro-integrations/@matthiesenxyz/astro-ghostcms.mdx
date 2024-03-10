@@ -3,8 +3,13 @@ title: "Astro-GhostCMS"
 description: "Easily integrate your Ghost Site to Astro, an Astro Integration that turns your Ghost server into a Headless CMS"
 ---
 import MXYZIntegration from '../../../../components/MXYZIntegration.astro'
+import { Card, LinkCard, Icon } from '@astrojs/starlight/components';
 
-<MXYZIntegration title="@matthiesenxyz/astro-ghostcms" githubIntegrationURL='https://github.com/MatthiesenXYZ/astro-ghostcms/tree/main/packages/astro-ghostcms/'/>
+<MXYZIntegration 
+    title="@matthiesenxyz/astro-ghostcms" 
+    githubIntegrationURL='https://github.com/MatthiesenXYZ/astro-ghostcms/tree/main/packages/astro-ghostcms/'
+    gitlabIntegrationURL='https://gitlab.com/matthiesenxyz/astro-ghostcms/-/tree/main/packages/astro-ghostcms?ref_type=heads'
+    />
 
 Easily migrate your Ghost Site to Astro, an Astro Integration that turns your Ghost server into a Headless CMS
 
@@ -14,6 +19,9 @@ Easily migrate your Ghost Site to Astro, an Astro Integration that turns your Gh
 - **Easy to use**: Astro-GhostCMS is easy to use, it uses the same Ghost API as your Ghost site, so you don't have to worry about setting up a new API.
 - **Customizable**: Astro-GhostCMS is customizable, you can use the same Ghost theme as your Ghost site, or you can use a different theme for your Astro site.
 
-## Getting Started
-
-Want to use Astro-GhostCMS? Here's where to start: [Astro-GhostCMS](https://astro-ghostcms.xyz/intro/integration-mode/quick/)
+<Card title="Getting Started" icon="rocket">
+   <LinkCard 
+      title="Want to get started?  Check out the Astro-GhostCMS Documentation"
+      href="https://astro-ghostcms.xyz"
+   />
+</Card>
