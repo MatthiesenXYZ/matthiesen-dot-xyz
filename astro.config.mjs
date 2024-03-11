@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, squooshImageService } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightGhostCMS from '@matthiesenxyz/starlight-ghostcms';
 
@@ -47,4 +47,7 @@ export default defineConfig({
 			],
 		}),
 	],
+	image: {
+		service: squooshImageService(),
+	}
 });
