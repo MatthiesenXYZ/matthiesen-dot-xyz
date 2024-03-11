@@ -16,8 +16,8 @@
   "dependencies": {
     "@astrojs/check": "^0.5.7",
     "@astrojs/starlight": "^0.21.1",
-    "@matthiesenxyz/astro-gists": "^0.2.6",
-    "@matthiesenxyz/starlight-ghostcms": "^0.1.6",
+    "@matthiesenxyz/astro-gists": "^0.2.7",
+    "@matthiesenxyz/starlight-ghostcms": "^0.1.7",
     "astro": "^4.5.0",
     "typescript": "^5.4.2"
   }
