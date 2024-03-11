@@ -14,6 +14,9 @@ export default defineConfig({
 			components: {
 				SiteTitle: './src/starlight/SiteTitle.astro',
 			},
+			expressiveCode: {
+				themes: ['catppuccin-macchiato','catppuccin-latte'],
+			},
 			logo: {
 				src: './src/assets/mxyz-logo.png',
 				alt: 'MatthiesenXYZ',
