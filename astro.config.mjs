@@ -10,7 +10,7 @@ export default defineConfig({
 			title: 'MatthiesenXYZ',
 			description: 'MatthiesenXYZ - Open Source Software Development & Support',
 			tagline: 'Open Source Software Development & Support',
-			favicon: 'mxyz-logo.png',
+			favicon: 'favicon.png',
 			components: {
 				SiteTitle: './src/starlight/SiteTitle.astro',
 			},
@@ -18,7 +18,7 @@ export default defineConfig({
 				themes: ['catppuccin-macchiato','catppuccin-latte'],
 			},
 			logo: {
-				src: './src/assets/mxyz-logo.png',
+				src: './src/assets/mxyz-logo.webp',
 				alt: 'MatthiesenXYZ',
 				replacesTitle: true,
 			},
