@@ -52,5 +52,8 @@ export default defineConfig({
 	],
 	image: {
 		service: squooshImageService(),
+	},
+	redirects: {
+		'/blog/tutorial-ghost-cms-astro': '/blog/astro-ghostcms'
 	}
 });
