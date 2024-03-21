@@ -8,6 +8,16 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'MatthiesenXYZ',
+			head: [
+				{ 
+					tag: 'script', 
+					attrs: {
+						src: 'https://umami.matthiesen.dev/script.js',
+						'data-website-id': '2245dfd0-c538-4f0d-ada9-adeefa0c4c2f',
+						defer: true,
+					},
+				}
+			],
 			description: 'MatthiesenXYZ - Open Source Software Development & Support',
 			tagline: 'Open Source Software Development & Support',
 			favicon: 'favicon.png',
