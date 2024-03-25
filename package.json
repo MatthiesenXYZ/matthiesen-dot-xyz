@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --host",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
@@ -14,11 +14,11 @@
     "p-retry": "^6.2.0"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.7",
-    "@astrojs/starlight": "^0.21.1",
-    "@matthiesenxyz/astro-gists": "^0.2.7",
-    "@matthiesenxyz/starlight-ghostcms": "^0.1.7",
-    "astro": "^4.5.0",
-    "typescript": "^5.4.2"
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/starlight": "^0.21.2",
+    "@matthiesenxyz/astro-gists": "^0.2.15",
+    "@matthiesenxyz/starlight-ghostcms": "^0.1.9",
+    "astro": "^4.5.9",
+    "typescript": "^5.4.3"
   }
 }
