@@ -11,7 +11,7 @@ jobs:
            --header 'Accept: application/json' \
            --header 'Content-Type: application/json' \
            --data '{
-              "content": "Hello World!",
+              "content": "Hello World from GH Actions!",
               "tts": false,
               "embeds": [],
               "components": [],
