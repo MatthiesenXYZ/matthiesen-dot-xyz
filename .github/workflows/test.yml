@@ -1,0 +1,11 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            curl -i --trace-ascii - -X POST https://discord.com/api/webhooks/1238439249515384852/kuNae6ZiohUV7GE0WQfi1VLNbRev-jnsnylpEAcFF_ftNoYx2TvxrfblJ-OAU0_8x_Op -H "Content-Type:application/json" --data '{"content": "Hello from GHActions"}'
