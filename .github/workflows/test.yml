@@ -1,5 +1,7 @@
-name: restartServer
-on: [push]
+name: test
+on: 
+  workflow_dispatch:
+  
 jobs:
  check-bats-version:
    runs-on: ubuntu-latest
