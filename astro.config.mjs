@@ -1,11 +1,12 @@
 import { defineConfig, squooshImageService } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightGhostCMS from '@matthiesenxyz/starlight-ghostcms';
+import astroGists from '@matthiesenxyz/astro-gists';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://matthiesen.xyz',
 	integrations: [
+		astroGists(),
 		starlight({
 			title: 'MatthiesenXYZ',
 			head: [
@@ -41,13 +42,6 @@ export default defineConfig({
 				baseUrl: 'https://github.com/MatthiesenXYZ/matthiesen-dot-xyz/edit/main'
 			},
 			lastUpdated: true,
-			plugins: [ 
-				starlightGhostCMS({
-					ghostURL: "https://ghost.matthiesen.xyz",
-					title: "MatthiesenXYZ",
-					rssDescription: "MatthiesenXYZ - Open Source Software Development & Support",
-				}),
-			],
 			sidebar: [
 				{
 					label: 'Astro Integrations',
@@ -63,7 +57,4 @@ export default defineConfig({
 	image: {
 		service: squooshImageService(),
 	},
-	redirects: {
-		'/blog/tutorial-ghost-cms-astro': '/blog/astro-ghostcms'
-	}
 });

@@ -6,18 +6,38 @@ sidebar:
 ---
 import MXYZIntegration from '../../../components/MXYZIntegration.astro'
 import AdamIntegration from '../../../components/AdamIntegration.astro'
+import AstroliciousIntegration from '../../../components/AstroliciousIntegration.astro'
 import { Card, LinkCard, Icon } from '@astrojs/starlight/components';
 
-##### The integrations in this list come from two Github sources,
+##### The integrations in this list come the following sources,
 
 <Card title="Matthiesen XYZ" icon="github">
    The Main GitHub Organization Profile
+   <LinkCard 
+         title="See GitHub Profile" 
+         href="https://github.com/MatthiesenXYZ"
+      />
+</Card>
+<Card title="Astrolicious" icon="github">
+   An Organization that Adam is a part of and the Home of StudioCMS
+   <LinkCard 
+         title="See GitHub Profile" 
+         href="https://github.com/astrolicious"
+      />
 </Card>
 <Card title="Adam Matthiesen" icon="github">
    Adam's GitHub Profile
+   <LinkCard 
+         title="See GitHub Profile" 
+         href="https://github.com/Adammatthiesen"
+      />
 </Card>
 <Card title="Mirrored to GitLab" icon="gitlab">
-   We also mirror some of our projects to GitLab. [View our GitLab Profile](https://gitlab.com/matthiesenxyz)
+   We also mirror some of our projects to GitLab.
+   <LinkCard 
+         title="See Gitlab Profile" 
+         href="https://gitlab.com/matthiesenxyz"
+      />
 </Card>
 
 ##### Check the sidebar or use the arrow buttons below to continue.
@@ -38,6 +58,14 @@ import { Card, LinkCard, Icon } from '@astrojs/starlight/components';
 ### Blogging-CMS Integrations
 
   
+   <Card>
+      <AstroliciousIntegration title="@astrolicious/studiocms" githubIntegrationURL='https://github.com/astrolicious/studiocms/tree/main/packages/studioCMS/'/>
+      <LinkCard 
+         title="StudioCMS"
+         description="A dedicated CMS for Astro Studio. Built from the ground up by the Astro community."
+         href="/astro-integrations/astrolicious/studiocms"
+      />
+   </Card>
    <Card>
       <MXYZIntegration title="@matthiesenxyz/astro-ghostcms" githubIntegrationURL='https://github.com/MatthiesenXYZ/astro-ghostcms/tree/main/packages/astro-ghostcms/' gitlabIntegrationURL='https://gitlab.com/matthiesenxyz/astro-ghostcms/-/tree/main/packages/astro-ghostcms?ref_type=heads'/>
       <LinkCard 
