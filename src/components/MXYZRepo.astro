@@ -1,6 +1,5 @@
 ---
 import { Icon } from '@astrojs/starlight/components';
-import Version from './Version.astro';
 
 interface Props {
 	title: string;
@@ -22,9 +21,6 @@ const { title, githubIntegrationURL } = Astro.props;
     		<a href={githubIntegrationURL}>
                 <Icon size="1rem" name="github" /> GitHub
 			</a>
-			<!-- <a href={githubIntegrationURL + 'CHANGELOG.md'}>
-				<Icon size="1rem" name="list-format" /> Changelog
-			</a> -->
 		</div>
 	</div>
 

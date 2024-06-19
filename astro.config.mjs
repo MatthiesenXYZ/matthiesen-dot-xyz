@@ -1,12 +1,10 @@
 import { defineConfig, squooshImageService } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import astroGists from '@matthiesenxyz/astro-gists';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://matthiesen.xyz',
 	integrations: [
-		astroGists(),
 		starlight({
 			title: 'MatthiesenXYZ',
 			head: [

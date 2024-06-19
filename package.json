@@ -14,11 +14,10 @@
     "p-retry": "^6.2.0"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.10",
-    "@astrojs/starlight": "^0.21.2",
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/starlight": "^0.24.3",
     "@matthiesenxyz/astro-gists": "^0.3.2",
-    "@matthiesenxyz/starlight-ghostcms": "^0.1.9",
-    "astro": "^4.5.9",
-    "typescript": "^5.4.3"
+    "astro": "^4.10.3",
+    "typescript": "^5.4.5"
   }
 }

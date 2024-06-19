@@ -3,7 +3,6 @@ title: "Astro-Gists"
 description: "Allows the user to import GitHub Gists by ID through an Astro Component and Octokit."
 ---
 import MXYZIntegration from '../../../../components/MXYZIntegration.astro'
-import { GetGist } from '@matthiesenxyz/astro-gists/components'
 import { Card, LinkCard, Icon, Aside } from '@astrojs/starlight/components';
 
 <MXYZIntegration 
@@ -16,8 +15,6 @@ Allows the user to import GitHub Gists by ID through an Astro Component and Octo
 
 <Aside title="Fun Fact" type="tip">  This website is running with `astro-gists`! Just check the Live Demo below</Aside>
 
-#### Live Demo:
-<GetGist gistId="cce7f3f1d9322710be8196aa344186ba" filename="hello.md"/>
 
 ## Features:
 - Import Collection of GitHub Gists by ID
